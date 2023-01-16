@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Apply from './views/Apply.vue'
+import Download from './views/Download.vue'
 import NotFound from './views/NotFound.vue'
 import Profile from './views/Profile.vue'
 import Lectures from './views/Lectures.vue'
@@ -94,6 +95,14 @@ const router = createRouter({
             metaTags: homeTags
         }
     }, {
+        path: '/downloads/:download',
+        name: 'Downloads',
+        component: Download,
+        meta: {
+            title: 'Apply for REALS - Rethinking Asia Lecture Series',
+            metaTags: homeTags
+        }
+    }, {
         path: '/schedule',
         name: 'Schedule',
         component: Schedule,
@@ -148,6 +157,6 @@ router.beforeEach((to, from, next) => {
     .forEach(tag => document.head.appendChild(tag))
   
     next()
-  })
+})
 
 export default router

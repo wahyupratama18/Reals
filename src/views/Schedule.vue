@@ -1,7 +1,7 @@
 <script setup>
 import Breadcrumb from '../components/Breadcrumb.vue'
 import NotFound from './NotFound.vue'
-import Table from './Table.vue'
+import Table from '../components/Table.vue'
 import { timeBlocks, schedules, lectures, profiles } from '../data'
 
 const blocks = timeBlocks.map((block, i) => {

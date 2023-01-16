@@ -44,10 +44,7 @@ const menus = [{
 },  {
     to: '/galleries',
     text: 'Galleries'
-}, {
-    to: '/contact',
-    text: 'Contact'
-}, ]
+}]
 </script>
 
 <template>

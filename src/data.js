@@ -1,8 +1,13 @@
-const sliders = [
-    'slidermain.jpg',
-    'sliderhijau.jpg',
-    'sliderbiru.jpg',
-]
+const sliders = [{
+    // route: undefined,
+    image: 'slidermain.jpg',
+}, {
+    // route: undefined,
+    image: 'sliderhijau.jpg',
+}, {
+    // route: undefined,
+    image: 'sliderbiru.jpg',
+}]
 
 const lectures = [{
     name: 'Setting the scene: In the same storm but different boats',
@@ -208,4 +213,45 @@ const applicants = [{
     ]
 }]
 
-export { sliders, lectures, timeBlocks, schedules, profiles, applicants }
+const downloads = {
+    2021: {
+        final: '#',
+        flyer: 'https://drive.google.com/file/d/1DqAVYLyVlMo_1idNBViDZbNRs8ERwYvf/view?usp=sharing',
+        intl: {
+            info: 'https://drive.google.com/file/d/17OCwKh10e86C3q-GegW3ntUAgV9wVsWg/view?usp=sharing',
+            schedule: 'https://drive.google.com/file/d/18IP2yFeAupFW4qe7wDfbskQNPrTjiB9V/view?usp=sharing'
+        },
+        attachments: [{
+            image: 'sliderbiru.jpg',
+            title: 'Indonesian food in a global context',
+            lecturer: 'Indonesian food in a global context',
+            download: 'https://drive.google.com/file/d/1dHBtmKmVUgXb8UKA2E6UtwFZTTCJS8RI/view?usp=sharing'
+        }, {
+            image: undefined,
+            title: 'Indonesian food in a global context',
+            lecturer: 'Indonesian food in a global context',
+            download: 'https://drive.google.com/file/d/1dHBtmKmVUgXb8UKA2E6UtwFZTTCJS8RI/view?usp=sharing'
+        }]
+    },
+    2020: {
+        final: '#',
+        flyer: 'https://drive.google.com/file/d/1DqAVYLyVlMo_1idNBViDZbNRs8ERwYvf/view?usp=sharing',
+        intl: {
+            info: 'https://drive.google.com/file/d/17OCwKh10e86C3q-GegW3ntUAgV9wVsWg/view?usp=sharing',
+            schedule: 'https://drive.google.com/file/d/18IP2yFeAupFW4qe7wDfbskQNPrTjiB9V/view?usp=sharing'
+        },
+        attachments: [{
+            image: undefined,
+            title: 'Indonesian food in a global context2',
+            lecturer: 'Indonesian food in a global context',
+            download: 'https://drive.google.com/file/d/1dHBtmKmVUgXb8UKA2E6UtwFZTTCJS8RI/view?usp=sharing'
+        }, {
+            image: undefined,
+            title: 'Indonesian food in a global context3',
+            lecturer: 'Indonesian food in a global context',
+            download: 'https://drive.google.com/file/d/1dHBtmKmVUgXb8UKA2E6UtwFZTTCJS8RI/view?usp=sharing'
+        }]
+    },
+}
+
+export { sliders, lectures, timeBlocks, schedules, profiles, applicants, downloads }

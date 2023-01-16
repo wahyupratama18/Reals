@@ -1,7 +1,7 @@
 <script setup>
 import Breadcrumb from '../components/Breadcrumb.vue'
 import NotFound from './NotFound.vue'
-import Table from './Table.vue'
+import Table from '../components/Table.vue'
 import { applicants } from '../data'
 import { useRoute } from 'vue-router'
 
@@ -9,11 +9,11 @@ const request = useRoute().params.apply,
     apply = applicants.filter(app => {
         return app.slug == request
     }),
-    application = apply.length == 1 ? apply[0] : []
+    application = apply.length > 0 ? apply[0] : undefined
 </script>
 
 <template>
-    <template v-if="apply">
+    <template v-if="application">
         <Breadcrumb title="Apply for REALS" :breads="[{
             to: '/',
             name: 'Home',
