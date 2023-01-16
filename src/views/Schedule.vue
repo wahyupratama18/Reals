@@ -2,6 +2,7 @@
 import Breadcrumb from '../components/Breadcrumb.vue'
 import NotFound from './NotFound.vue'
 import Table from '../components/Table.vue'
+import ToBe from '../components/ToBe.vue'
 import { timeBlocks, schedules, lectures, profiles } from '../data'
 
 const blocks = timeBlocks.map((block, i) => {
@@ -57,7 +58,7 @@ const blocked = blocks.map((block, i) => {
     }]" />
     
     <section id="applications" class="p-8 lg:p-16 min-h-screen">
-        <Table class="[&_td]:border [&_td]:max-w-lg">
+        <Table class="[&_td]:border [&_td]:max-w-lg" v-if="schedules.length > 0 && blocks.length > 0">
             <tr>
                 <th></th>
                 <th v-for="(schedule, i) in schedules" :key="i" v-text="schedule.date"></th>
@@ -90,5 +91,7 @@ const blocked = blocks.map((block, i) => {
                 </template>
             </tr>
         </Table>
+
+        <ToBe v-else>To be announced (TBA)</ToBe>
     </section>
 </template>

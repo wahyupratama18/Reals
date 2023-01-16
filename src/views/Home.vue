@@ -1,6 +1,7 @@
 <script setup>
 import { Splide, SplideSlide } from '@splidejs/vue-splide'
 import Button from '../components/Button.vue'
+import ToBe from '../components/ToBe.vue';
 import { sliders, lectures, profiles } from '../data'
 
 </script>
@@ -84,13 +85,15 @@ import { sliders, lectures, profiles } from '../data'
             <div class="mt-12">
                 <h2 class="text-3xl font-semibold">List of Lectures</h2>
 
-                <ol class="grid grid-cols-1 md:grid-cols-2 gap-4 list-disc list-inside">
+                <ol class="grid grid-cols-1 md:grid-cols-2 gap-4 list-disc list-inside" v-if="lectures.length > 0">
                     <li v-for="(lecture, i) in lectures" :key="i">
                         <router-link :to="`/lectures/${1 + i}`" class="hover:text-rose-500 hover:font-medium">
                             {{ lecture.name }}
                         </router-link>
                     </li>
                 </ol>
+
+                <ToBe class="mt-4" v-else>To be announced (TBA)</ToBe>
             </div>
         </section>
     </div>

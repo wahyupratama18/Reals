@@ -9,7 +9,7 @@ const sliders = [{
     image: 'sliderbiru.jpg',
 }]
 
-const lectures = [{
+const lectures = [/* {
     name: 'Setting the scene: In the same storm but different boats',
     profile_id: 1,
     abstract: `
@@ -45,20 +45,20 @@ const lectures = [{
 }, {
     name: 'Social Media for Combatting Disinformation in the Time of Corona',
     profile_id: 0
-}]
+} */]
 
 const timeBlocks = [
-    '01:00 PM',
-    '01:30 PM',
-    '02:00 PM',
-    '02:30 PM',
-    '03:00 PM',
-    '03:30 PM',
-    '04:00 PM',
-    '04:30 PM',
+    // '01:00 PM',
+    // '01:30 PM',
+    // '02:00 PM',
+    // '02:30 PM',
+    // '03:00 PM',
+    // '03:30 PM',
+    // '04:00 PM',
+    // '04:30 PM',
 ]
 
-const schedules = [{
+const schedules = [/* {
     date: '24 September, 2023',
     rundowns: [{
         started: '01:30 PM',
@@ -82,7 +82,7 @@ const schedules = [{
         block: 3,
         lecture_id: 2
     },]
-},]
+}, */]
 
 const profiles = [{
     name: 'Dr. Evi Eliyanah',
@@ -95,15 +95,145 @@ const profiles = [{
     email: 'evi.eliyanah.fs@um.ac.id',
     biography: `Evi is a profile at the Department of English, Universitas Negeri Malang. She obtained her PhD in Asian Studies from the Australian National University in 2019. She has done quite an extensive research and publication in gender, cultural and gender studies. Her latest publications on gender and Indonesian cinema can be accessed in internationally reputable journals, such as Social Sciences, International Journal on Indonesian Studies and Situations: Cultural Studies in Asian Context.`
 }, {
-    name: 'Dr. Evi Eliyanah2',
+    name: 'Dr. Herlambang P. Wiratraman',
+    uni: 'Universitas Gajah Mada',
+    country: 'Indonesia',
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: 'herlambang.perdana@ugm.ac.id',
+    biography: ``
+}, {
+    name: 'Sri Fatmawati, S.Si., M.Sc., Ph.D',
+    uni: 'Institut Teknologi Sepuluh November',
+    country: 'Indonesia',
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: 'fatma@chem.its.ac.id',
+    biography: ``
+}, {
+    name: 'Dr. Sc Akhmad Sabarudin',
+    uni: 'Universitas Brawijaya',
+    country: 'Indonesia',
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: 'sabarjpn@gmail.com',
+    biography: ``
+}, {
+    name: 'Nurenzia Yannuar, S.S., M.A.,Ph.D',
     uni: 'Universitas Negeri Malang',
     country: 'Indonesia',
-    photo: 'https://um.ac.id/wp-content/uploads/2020/12/WhatsApp-Image-2020-12-16-at-10.57.07.jpeg',
-    fields: 'Gender Studies, Cultural Studies, and Asian Studies',
-    research: 'Popular representations of masculinity in Indonesia',
-    graduated: 'The Australian National University, 2019',
-    email: 'evi.eliyanah.fs@um.ac.id',
-    biography: `Evi is a profile at the Department of English, Universitas Negeri Malang. She obtained her PhD in Asian Studies from the Australian National University in 2019. She has done quite an extensive research and publication in gender, cultural and gender studies. Her latest publications on gender and Indonesian cinema can be accessed in internationally reputable journals, such as Social Sciences, International Journal on Indonesian Studies and Situations: Cultural Studies in Asian Context.`
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: 'nurenzia.yannuar.fs@um.ac.id',
+    biography: ``
+}, {
+    name: 'Dr Elly (Ellen) Kent',
+    uni: 'University New South Wales at the Australian Defence Force Academy',
+    country: 'Indonesia',
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: 'e.kent@adfa.edu.au',
+    biography: ``
+}, {
+    name: 'Anneleen',
+    uni: 'KU Leuven',
+    country: 'Belgium',
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: '-',
+    biography: ``
+}, {
+    name: 'Miranda P Tahalele',
+    uni: 'BINUS University',
+    country: 'Indonesia',
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: 'fatma@chem.its.ac.id',
+    biography: ``
+}, {
+    name: 'Prof. Dr.Eng. Yudi Darma, S.Si., M.Si.',
+    uni: 'Institut Teknologi Bandung',
+    country: 'Indonesia',
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: 'yudi@itb.ac.id',
+    biography: ``
+}, {
+    name: 'Nor Ismah',
+    uni: 'Universitas Nahdlatul Ulama (UNU) Yogyakarta',
+    country: 'Indonesia',
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: 'norismahkz@gmail.com',
+    biography: ``
+}, {
+    name: 'Nelly Martin-Anatias, Ph.D.',
+    uni: 'Massey University of New Zealand',
+    country: 'New Zealand',
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: 'N.Martin4@massey.ac.nz',
+    biography: ``
+}, {
+    name: 'Daniel Suryadarma',
+    uni: 'Akademi Ilmuwan Muda Indonesia',
+    country: 'Indonesia',
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: 'fatma@chem.its.ac.id',
+    biography: ``
+}, {
+    name: 'Azhar Ahmad Smaragdina , S.Pd, M.Pd & Nabhan Fuad Choiron ,SS, MA',
+    uni: 'Universitas Negeri Malang',
+    country: 'Indonesia',
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: '-',
+    biography: ``
+}, {
+    name: 'Hj. Dianni Risda, S. Pd., M. Ed.',
+    uni: 'Universitas Pendidikan Indonesia',
+    country: 'Indonesia',
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: 'diannirisda71@gmail.com',
+    biography: ``
+}, {
+    name: 'Prof. Chung Joon Kon',
+    uni: 'Eurasia Foundation',
+    country: 'Indonesia',
+    photo: 'profile.png',
+    fields: '-',
+    research: '-',
+    graduated: '-',
+    email: '-',
+    biography: ``
 }]
 
 const applicants = [{
