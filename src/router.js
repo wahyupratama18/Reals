@@ -5,6 +5,7 @@ import Apply from './views/Apply.vue'
 import Download from './views/Download.vue'
 import NotFound from './views/NotFound.vue'
 import Profile from './views/Profile.vue'
+import Gallery from './views/Gallery.vue'
 import Lectures from './views/Lectures.vue'
 import Schedule from './views/Schedule.vue'
 import ShowApply from './views/ShowApply.vue'
@@ -108,6 +109,14 @@ const router = createRouter({
         component: Schedule,
         meta: {
             title: 'Time Schedule - Rethinking Asia Lecture Series',
+            metaTags: homeTags
+        }
+    }, {
+        path: '/galleries',
+        name: 'Galleries',
+        component: Gallery,
+        meta: {
+            title: 'Galleries - Rethinking Asia Lecture Series',
             metaTags: homeTags
         }
     }, {

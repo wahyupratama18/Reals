@@ -27,6 +27,10 @@
   @apply bg-[url('/src/assets/bg-um.png')] bg-center bg-no-repeat bg-fixed bg-cover;
 }
 
+.stick-time {
+  @apply sticky left-0 bg-slate-50;
+}
+
 /* a {
   font-weight: 500;
   color: #646cff;

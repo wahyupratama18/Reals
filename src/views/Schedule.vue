@@ -58,38 +58,42 @@ const blocked = blocks.map((block, i) => {
     }]" />
     
     <section id="applications" class="p-8 lg:p-16 min-h-screen">
-        <Table class="[&_td]:border [&_td]:max-w-lg" v-if="schedules.length > 0 && blocks.length > 0">
-            <tr>
-                <th></th>
-                <th v-for="(schedule, i) in schedules" :key="i" v-text="schedule.date"></th>
-            </tr>
-            <tr v-for="(block, i) in blocked" :key="i">
-                <td v-text="block.time"></td>
-                <template v-for="(schedule, j) in block.schedules" :key="j">
-                    <td class="bg-rose-400 shadow text-white" v-if="schedule && schedule != 1" :rowspan="schedule.block">
-                        <div v-if="schedule.lecture">
-                            <small v-text="schedule.started"></small>
-                            <router-link :to="`/lectures/${1 + schedule.lecture_id }`">
-                                <h2 class="text-lg font-semibold mt-2" v-text="schedule.lecture.name" />
-                            </router-link>
-
-                            <h3 class="mt-3">
-                                Speaker: 
-                                <router-link :to="`/profiles/${ 1 + schedule.lecture.profile_id }`" class="font-medium" v-text="schedule.lecture.profile.name" />
-                            </h3>
-                            
-                            <p class="text-sm" v-text="schedule.lecture.profile.uni" />
-                        </div>
-
-                        <div v-else>
-                            <small v-text="schedule.started"></small>
-                            <h2 class="text-lg font-semibold mt-2" v-text="schedule.title" />
-                            <p class="text-sm" v-text="schedule.uni" />
-                        </div>
-                    </td>
-                    <td v-else-if="schedule === undefined"></td>
-                </template>
-            </tr>
+        <Table class="[&_td]:border [&_td]:max-w-lg max-h-[75vh]" v-if="schedules.length > 0 && blocks.length > 0">
+            <thead>
+                <tr>
+                    <th class="stick-time"></th>
+                    <th class="sticky top-0 bg-slate-50" v-for="(schedule, i) in schedules" :key="i" v-text="schedule.date"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(block, i) in blocked" :key="i">
+                    <td class="stick-time" v-text="block.time"></td>
+                    <template v-for="(schedule, j) in block.schedules" :key="j">
+                        <td class="bg-rose-400 shadow text-white" v-if="schedule && schedule != 1" :rowspan="schedule.block">
+                            <div v-if="schedule.lecture">
+                                <small v-text="schedule.started"></small>
+                                <router-link :to="`/lectures/${1 + schedule.lecture_id }`">
+                                    <h2 class="text-lg font-semibold mt-2" v-text="schedule.lecture.name" />
+                                </router-link>
+    
+                                <h3 class="mt-3">
+                                    Speaker: 
+                                    <router-link :to="`/profiles/${ 1 + schedule.lecture.profile_id }`" class="font-medium" v-text="schedule.lecture.profile.name" />
+                                </h3>
+                                
+                                <p class="text-sm" v-text="schedule.lecture.profile.uni" />
+                            </div>
+    
+                            <div v-else>
+                                <small v-text="schedule.started"></small>
+                                <h2 class="text-lg font-semibold mt-2" v-text="schedule.title" />
+                                <p class="text-sm" v-text="schedule.uni" />
+                            </div>
+                        </td>
+                        <td v-else-if="schedule === undefined"></td>
+                    </template>
+                </tr>
+            </tbody>
         </Table>
 
         <ToBe v-else>To be announced (TBA)</ToBe>

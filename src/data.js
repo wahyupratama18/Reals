@@ -9,7 +9,7 @@ const sliders = [{
     image: 'sliderbiru.jpg',
 }]
 
-const lectures = [/* {
+const lectures = [{
     name: 'Setting the scene: In the same storm but different boats',
     profile_id: 1,
     abstract: `
@@ -45,20 +45,20 @@ const lectures = [/* {
 }, {
     name: 'Social Media for Combatting Disinformation in the Time of Corona',
     profile_id: 0
-} */]
+}]
 
 const timeBlocks = [
-    // '01:00 PM',
-    // '01:30 PM',
-    // '02:00 PM',
-    // '02:30 PM',
-    // '03:00 PM',
-    // '03:30 PM',
-    // '04:00 PM',
-    // '04:30 PM',
+    '01:00 PM',
+    '01:30 PM',
+    '02:00 PM',
+    '02:30 PM',
+    '03:00 PM',
+    '03:30 PM',
+    '04:00 PM',
+    '04:30 PM',
 ]
 
-const schedules = [/* {
+const schedules = [{
     date: '24 September, 2023',
     rundowns: [{
         started: '01:30 PM',
@@ -82,7 +82,29 @@ const schedules = [/* {
         block: 3,
         lecture_id: 2
     },]
-}, */]
+}, {
+    date: '26 September, 2023',
+    rundowns: [{
+        started: '01:30 PM',
+        block: 1,
+        lecture_id: 1
+    }, {
+        started: '03:00 PM',
+        block: 3,
+        lecture_id: 2
+    },]
+}, {
+    date: '27 September, 2023',
+    rundowns: [{
+        started: '02:00 PM',
+        block: 1,
+        lecture_id: 1
+    }, {
+        started: '03:00 PM',
+        block: 3,
+        lecture_id: 2
+    },]
+}]
 
 const profiles = [{
     name: 'Dr. Evi Eliyanah',
@@ -384,4 +406,11 @@ const downloads = {
     },
 }
 
-export { sliders, lectures, timeBlocks, schedules, profiles, applicants, downloads }
+const galleries = [
+    'slidermain.jpg',
+    'sliderhijau.jpg',
+    'sliderbiru.jpg',
+    // 'https://um.ac.id/wp-content/uploads/2020/12/WhatsApp-Image-2020-12-16-at-10.57.07.jpeg',
+]
+
+export { sliders, lectures, timeBlocks, schedules, profiles, applicants, downloads, galleries }
