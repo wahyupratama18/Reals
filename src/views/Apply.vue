@@ -46,7 +46,7 @@ const handleAccordion = i => {
         <h2 class="text-lg font-semibold my-6">For more information</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <router-link :to="applicant.to" v-for="(applicant, i) in applicants" :key="i">
+            <router-link v-scroll-to="`#app`" :to="applicant.to" v-for="(applicant, i) in applicants" :key="i">
                 <Button class="w-full">{{ applicant.name }}</Button>
             </router-link>
         </div>

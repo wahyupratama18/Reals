@@ -1,51 +1,147 @@
 const sliders = [{
     // route: undefined,
-    image: 'slidermain.jpg',
+    image: 'announcement.jpg',
 }, {
-    // route: undefined,
-    image: 'sliderhijau.jpg',
+    route: '/apply/um-students',
+    image: 'general.jpg',
 }, {
-    // route: undefined,
-    image: 'sliderbiru.jpg',
+    route: '/apply/intl',
+    image: 'international.jpg',
+}, {
+    route: '/apply/general',
+    image: 'general.jpg',
 }]
 
+const locations = [
+    'Aula Perpustakaan lantai 2',
+]
+
 const lectures = [{
-    name: 'Setting the scene: In the same storm but different boats',
-    profile_id: 1,
-    abstract: `
-    <p>
-        All over the world, the pandemic has exacerbated social inequalities in ways never before seen in the 21st century. It is the task of social scientists and academics to carry out rigorous social analysis able to fully comprehend the underlying structure reproducing these social inequalities and what it does to already marginalised communities. This lecture grounds its thinking on Burawoy’s (2015) call for social scientists and academics to approach social inequalities as not merely an objective reality that is researched and explained, but to also see ourselves as actors and instruments within it. All social scientists and academics face the social dilemma of reproducing social inequalities through our academic labouring. The institutions we work in, our type of employment, available findings and resources, as well as the topics of research we can or can not study all contribute to our inevitable complicities in procreating social exclusions. This lecture problematises the neoliberalisation of higher education that limits the kinds of research we, as academics in Indonesia and those part of the Global South, can carry out. The lecture thus aims to widen the space for academic reflexivity, as well as social acceptance, of the responsibilities social scientists and academics must bear in a time of increased and more complex wealth and social inequalities.
-    </p>
-    <p>download material <a target="_blank" href="https://drive.google.com/file/d/1JaARKZPugizxKXpNyXEVRTsiG4SgTN0e/view?usp=sharing">here</a></p>`,
+    name: 'Setting the scene',
+    profile_id: 0,
+    abstract: `TBA`,
     references: [
-        'Antwi-Boasiako, J. & Nyarkoh, E. (2021). Government communication during the Covid-19 pandemic: The case of Ghana. International Journal of Public Administration, 44(11-12), 1039-1040. https://doi.org/10.1080/01900692.2020.1841792',
+        'TBA',
+        /* 'Antwi-Boasiako, J. & Nyarkoh, E. (2021). Government communication during the Covid-19 pandemic: The case of Ghana. International Journal of Public Administration, 44(11-12), 1039-1040. https://doi.org/10.1080/01900692.2020.1841792',
         'Azlan A. A., Hamzah M.R., Sern T.J., Ayub S.H., Mohamad, E. (2020). Public knowledge, attitudes and practices towards COVID-19: A cross-sectional study in Malaysia. PLoS ONE, 15(5): e0233668. https://doi.org/10.1371/journal.pone.0233668',
         'Chen, C-M. (2020). Public health messages about COVID-19 prevention in multilingual Taiwan. Multilingua, 39(5), 597-606. https://doi.org/10.1515/multi-2020-0092',
         'Dreisbach, J.L., & Mendoza-Dreisbach, S. (2021). Unity in adversity: Multilingual crisis translation and emergency linguistics in the COVID-19 pandemic. The Open Public Health Journal, 14, 94-97. DOI: 10.2174/1874944502114010094',
-        'El-Jardali, Bou-Karroum, L., & Fadlallah, R. (2020). Amplifying the role of knowledge translation platforms in the COVID-19 pandemic response. Health Research Policy and Systems, 18(58), 1-7. https://doi.org/10.1186/s12961-020-00576-y',
-    ]
+        'El-Jardali, Bou-Karroum, L., & Fadlallah, R. (2020). Amplifying the role of knowledge translation platforms in the COVID-19 pandemic response. Health Research Policy and Systems, 18(58), 1-7. https://doi.org/10.1186/s12961-020-00576-y', */
+    ],
+    mode: 1,
+    location_id: 0
 }, {
-    name: 'Public Health Communication about COVID-19 Response: A Discourse Analysis of the Mobility Constraints Terms in Indonesia and Malaysia.',
-    profile_id: 0
+    name: 'Does Indonesian COVID-19 Emergency Law Secure Rule of Law and Human Rights?',
+    profile_id: 1,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 1,
+    location_id: 0
 }, {
-    name: 'The Cultural Political Economy of Social Sciences in Indonesia',
-    profile_id: 0
+    name: 'TBA',
+    profile_id: 2,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 1,
+    location_id: 0
 }, {
-    name: 'State Capacity and Public Policy: Challenges during the global pandemic',
-    profile_id: 0
+    name: 'TBA',
+    profile_id: 3,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 1,
+    location_id: 0
 }, {
-    name: 'The Urgency of post-COVID-19 equitable recovery',
-    profile_id: 0
+    name: 'TBA',
+    profile_id: 4,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 1,
+    location_id: 0
 }, {
-    name: 'Language in the time of COVID-19',
-    profile_id: 0
+    name: 'TBA',
+    profile_id: 5,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 0,
 }, {
-    name: 'Setting the Scene',
-    profile_id: 0
+    name: 'TBA',
+    profile_id: 6,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 0,
 }, {
-    name: 'Social Media for Combatting Disinformation in the Time of Corona',
-    profile_id: 0
-}]
+    name: 'TBA',
+    profile_id: 7,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 0,
+}, {
+    name: 'TBA',
+    profile_id: 4,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 0,
+}, {
+    name: 'TBA',
+    profile_id: 9,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 0,
+}, {
+    name: 'TBA',
+    profile_id: 10,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 0,
+}, {
+    name: 'Recovering Learning Loss in Education: Lessons Learned from Indonesia',
+    profile_id: 11,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 0,
+}, {
+    name: 'TBA',
+    profile_id: 12,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 0,
+}, {
+    name: 'Conclusion',
+    profile_id: 13,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    location_id: 0,
+}].map(lecture => {
+    lecture.location = lecture.mode === 1 ? locations[lecture.location_id] : ''
+    return lecture
+})
 
 const timeBlocks = [
     '01:00 PM',
@@ -59,7 +155,7 @@ const timeBlocks = [
 ]
 
 const schedules = [{
-    date: '24 September, 2023',
+    date: '10 February, 2023',
     rundowns: [{
         started: '01:30 PM',
         block: 1,
@@ -68,25 +164,14 @@ const schedules = [{
         country: 'Indonesia'
     }, {
         started: '02:00 PM',
-        block: 4,
+        block: 2,
         lecture_id: 0
     },]
 }, {
-    date: '25 September, 2023',
-    rundowns: [{
-        started: '01:00 PM',
-        block: 4,
-        lecture_id: 1
-    }, {
-        started: '03:00 PM',
-        block: 3,
-        lecture_id: 2
-    },]
-}, {
-    date: '26 September, 2023',
+    date: '17 February 2023',
     rundowns: [{
         started: '01:30 PM',
-        block: 1,
+        block: 3,
         lecture_id: 1
     }, {
         started: '03:00 PM',
@@ -94,15 +179,72 @@ const schedules = [{
         lecture_id: 2
     },]
 }, {
-    date: '27 September, 2023',
+    date: '24 February 2023',
     rundowns: [{
-        started: '02:00 PM',
-        block: 1,
-        lecture_id: 1
+        started: '01:30 PM',
+        block: 3,
+        lecture_id: 3
     }, {
         started: '03:00 PM',
         block: 3,
-        lecture_id: 2
+        lecture_id: 4
+    },]
+}, {
+    date: '3 March 2023',
+    rundowns: [{
+        started: '01:30 PM',
+        block: 3,
+        lecture_id: 5
+    }, {
+        started: '03:00 PM',
+        block: 3,
+        lecture_id: 6
+    },]
+}, {
+    date: '10 March 2023',
+    rundowns: [{
+        started: '01:30 PM',
+        block: 3,
+        lecture_id: 7
+    }, {
+        started: '03:00 PM',
+        block: 3,
+        lecture_id: 8
+    },]
+}, {
+    date: '17 March 2023',
+    rundowns: [{
+        started: '01:30 PM',
+        block: 3,
+        lecture_id: 9
+    }, {
+        started: '03:00 PM',
+        block: 3,
+        lecture_id: 10
+    },]
+}, {
+    date: '31 March 2023',
+    rundowns: [{
+        started: '01:00 PM',
+        block: 3,
+        lecture_id: 11
+    }, {
+        started: '03:00 PM',
+        block: 3,
+        lecture_id: 12
+    },]
+}, {
+    date: '14 April 2023',
+    rundowns: [{
+        started: '01:30 PM',
+        block: 3,
+        lecture_id: 13
+    }, {
+        started: '03:00 PM',
+        block: 2,
+        title: 'Closing',
+        uni: 'Online',
+        country: ''
     },]
 }]
 
@@ -285,7 +427,7 @@ const applicants = [{
     }],
     applications: [
         'Prepare the required documents.',
-        'Fill out the registration form <a href="https://forms.gle/YuQ8TLe9zt5VSEcr6">here</a>',
+        'Fill out the registration form <a href="https://bit.um.ac.id/REALS23_students" target="_blank">here</a>',
     ],
     selections: [
         'Demonstrates a strong commitment to active participation in Rethinking EurAsia Lecture Series from the beginning until the end of the courses',
@@ -320,7 +462,7 @@ const applicants = [{
     }],
     applications: [
         'Prepare the required documents.',
-        'Fill out the registration form <a href="https://forms.gle/YuQ8TLe9zt5VSEcr6">here</a>',
+        'Fill out the registration form <a href="https://bit.um.ac.id/REALS23_general" target="_blank">here</a>',
     ],
     selections: [
         'Demonstrates a strong commitment to active participation in Rethinking EurAsia Lecture Series from the beginning until the end of the courses',
@@ -355,7 +497,7 @@ const applicants = [{
     }],
     applications: [
         'Prepare the required documents.',
-        'Fill out the registration form <a href="https://forms.gle/YuQ8TLe9zt5VSEcr6">here</a>',
+        'Fill out the registration form <a href="https://bit.um.ac.id/REALS23_intl" target="_blank">here</a>',
     ],
     selections: [
         'Demonstrates a strong commitment to active participation in Rethinking EurAsia Lecture Series from the beginning until the end of the courses',

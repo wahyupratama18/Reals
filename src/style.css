@@ -28,7 +28,15 @@
 }
 
 .stick-time {
-  @apply sticky left-0 bg-slate-50;
+  @apply sticky left-0 bg-slate-50 w-4;
+}
+
+.splide__arrow svg {
+  @apply fill-slate-50;
+}
+
+.splide__pagination__page {
+  @apply bg-slate-800/75;
 }
 
 /* a {

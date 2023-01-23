@@ -27,7 +27,7 @@ const socials = [{
     icon: 'mdi mdi-web',
 }, {
     name: 'Facebook',
-    href: 'http://oia.um.ac.id/',
+    href: 'https://www.facebook.com/internationalaffairsUM',
     icon: 'mdi mdi-facebook',
 }, {
     name: 'Instagram',

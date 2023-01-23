@@ -5,12 +5,18 @@ import { applicants } from '../data'
 
 const sidebar = ref(false)
 
+const determineOverflow = () => {
+    document.querySelector('body').style.overflow = sidebar.value ? 'hidden' : null
+}
+
 const toggleSidebar = () => {
     sidebar.value = ! sidebar.value
+    determineOverflow()
 }
 
 const closeSidebar = () => {
     sidebar.value = false
+    determineOverflow()
 }
 
 const menus = [{
@@ -53,7 +59,7 @@ const menus = [{
             <i class="mdi mdi-dots-grid text-xl" />
         </button>
 
-        <router-link to="/" @click="closeSidebar()">
+        <router-link v-scroll-to="`#app`" to="/" @click="closeSidebar()">
             <img src="../assets/nav.png" class="h-12 md:h-16" />
         </router-link>
     </nav>

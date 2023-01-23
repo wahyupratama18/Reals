@@ -25,7 +25,7 @@ const request = useRoute().params.lecture,
         <section id="lecture" class="p-8 lg:p-16 min-h-screen">
             <h2 class="text-lg font-semibold" v-text="`Lecture ${ request }`" />
             <h1 class="text-2xl font-bold text-rose-500" v-text="lecture.name" />
-            <router-link :to="`/profiles/${ lecture.profile_id + 1 }`">
+            <router-link v-scroll-to="`#app`" :to="`/profiles/${ lecture.profile_id + 1 }`">
                 <h3 class="text-lg font-medium" v-text="profile.name" />
             </router-link>
             <h4 v-text="profile.uni" />

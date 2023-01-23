@@ -6,7 +6,7 @@ defineProps({
 
 <template>
     <div v-for="(menu, i) in menus" :key="i">
-        <router-link v-if="! menu.children" :to="menu.to" v-text="menu.text" class="block px-6 py-2 text-rose-400 font-medium hover:bg-rose-500 hover:text-slate-100 hover:font-semibold"></router-link>
+        <router-link v-scroll-to="`#app`" v-if="! menu.children" :to="menu.to" v-text="menu.text" class="block px-6 py-2 text-rose-400 font-medium hover:bg-rose-500 hover:text-slate-100 hover:font-semibold"></router-link>
         <div v-else>
             <div class="px-6 py-2 text-rose-400 font-medium hover:bg-rose-500 hover:text-slate-100 hover:font-semibold flex justify-between gap-6 cursor-pointer" @click="menu.opened.value = ! menu.opened.value">
                 <span v-text="menu.text"></span>

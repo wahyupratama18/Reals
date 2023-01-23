@@ -13,7 +13,6 @@ const blocks = timeBlocks.map((block, i) => {
             .filter(rundown => {
                 return rundown.started === block
             })[0]
-            // return filtered ?? searchPrevious(schedule.rundowns, block, i)
         })
     }
 })
@@ -58,7 +57,7 @@ const blocked = blocks.map((block, i) => {
     }]" />
     
     <section id="applications" class="p-8 lg:p-16 min-h-screen">
-        <Table class="[&_td]:border [&_td]:max-w-lg max-h-[75vh]" v-if="schedules.length > 0 && blocks.length > 0">
+        <Table class="[&_td]:border [&_td:not(.stick-time)]:min-w-[18rem] [&_td]:max-w-lg max-h-[75vh]" v-if="schedules.length > 0 && blocks.length > 0">
             <thead>
                 <tr>
                     <th class="stick-time"></th>
@@ -72,13 +71,13 @@ const blocked = blocks.map((block, i) => {
                         <td class="bg-rose-400 shadow text-white" v-if="schedule && schedule != 1" :rowspan="schedule.block">
                             <div v-if="schedule.lecture">
                                 <small v-text="schedule.started"></small>
-                                <router-link :to="`/lectures/${1 + schedule.lecture_id }`">
+                                <router-link v-scroll-to="`#app`" :to="`/lectures/${1 + schedule.lecture_id }`">
                                     <h2 class="text-lg font-semibold mt-2" v-text="schedule.lecture.name" />
                                 </router-link>
     
                                 <h3 class="mt-3">
                                     Speaker: 
-                                    <router-link :to="`/profiles/${ 1 + schedule.lecture.profile_id }`" class="font-medium" v-text="schedule.lecture.profile.name" />
+                                    <router-link v-scroll-to="`#app`" :to="`/profiles/${ 1 + schedule.lecture.profile_id }`" class="font-medium" v-text="schedule.lecture.profile.name" />
                                 </h3>
                                 
                                 <p class="text-sm" v-text="schedule.lecture.profile.uni" />

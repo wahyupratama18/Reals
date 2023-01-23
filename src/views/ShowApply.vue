@@ -38,7 +38,7 @@ const request = useRoute().params.apply,
                     <Table>
                         <tr v-for="(required, i) in application.required" :key="i">
                             <td v-text="1 + i"></td>
-                            <td v-html="required"></td>
+                            <td class="prose" v-html="required"></td>
                         </tr>
                     </Table>
                 </div>
@@ -51,7 +51,7 @@ const request = useRoute().params.apply,
                     <Table>
                         <tr v-for="(benefit, i) in application.benefits" :key="i">
                             <td v-text="1 + i"></td>
-                            <td v-html="benefit"></td>
+                            <td class="prose" v-html="benefit"></td>
                         </tr>
                     </Table>
                 </div>
@@ -64,7 +64,7 @@ const request = useRoute().params.apply,
                     <Table>
                         <tr v-for="(timeline, i) in application.timelines" :key="i">
                             <td v-html="timeline.title"></td>
-                            <td v-html="timeline.date"></td>
+                            <td class="prose" v-html="timeline.date"></td>
                         </tr>
                     </Table>
                 </div>
@@ -77,7 +77,7 @@ const request = useRoute().params.apply,
                     <Table>
                         <tr v-for="(apply, i) in application.applications" :key="i">
                             <td v-text="1 + i"></td>
-                            <td v-html="apply"></td>
+                            <td class="prose" v-html="apply"></td>
                         </tr>
                     </Table>
                 </div>
@@ -90,7 +90,7 @@ const request = useRoute().params.apply,
                     <Table>
                         <tr v-for="(selection, i) in application.selections" :key="i">
                             <td v-text="1 + i"></td>
-                            <td v-html="selection"></td>
+                            <td class="prose" v-html="selection"></td>
                         </tr>
                     </Table>
                 </div>
