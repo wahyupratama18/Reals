@@ -407,8 +407,8 @@ const applicants = [{
     description: 'As the main participants of this event, UM students have the opportunity to join this programme in a complete package. Students are required to attend minimum 80% of the lecture meetings and conduct a final project related to the topic delivered throughout the lecture series. In addition to certificate of attendance, students with the best final project have the opportunity to win a scholarship grant for their project development.',
     eligible: 'Active students of Universitas Negeri Malang from any degree and study program as well as non-degree programs who are willing and committed to attend the minimum requirements of lectures’ attendances and to work on the required final project.',
     required: [
-        '<a href="https://drive.google.com/file/d/19b-8yBUOpn8W7EGKkhjAz5JuCqM4SgbM/view?usp=sharing">Letter of commitment</a>',
-        'A scan of student’s ID card (.jpg)',
+        '<a href="https://drive.google.com/file/d/18ayhnfshFq2b3BpyHkCYqYbEE-33Hk6z/view">Letter of commitment</a>',
+        'A scan of student\'s ID card (.jpg)',
         'A scan of English proficiency certificate/English proficiency prediction (TOEFL/TKBI/IELTS/IBT) (optional)'
     ],
     benefits: [
@@ -420,10 +420,10 @@ const applicants = [{
     ],
     timelines: [{
         title: '<b>Registration Deadline</b>',
-        date: '17 September 2021',
+        date: '18 January - 3 February 2023',
     }, {
-        title: 'Announcement',
-        date: '22 September 2021',
+        title: 'Lecture Series',
+        date: '18 February - 14 April 2023 (Every Friday)',
     }],
     applications: [
         'Prepare the required documents.',
@@ -432,7 +432,7 @@ const applicants = [{
     selections: [
         'Demonstrates a strong commitment to active participation in Rethinking EurAsia Lecture Series from the beginning until the end of the courses',
         'Indicates a serious interest in current issue in Europe and Asia',
-        'Indicates awareness of the issue on Years of Living Precariously: Maintaining Resilience amidst a Global Pandemic in Europe and Asia',
+        'Indicates awareness of the issue on <b>Post-Pandemic World Challenges</b>',
         'Indicates an adequate proficiency in spoken and written English',
     ]
 }, {
@@ -442,58 +442,21 @@ const applicants = [{
     description: 'This category applies to foreign national applicants (students and graduates) who wish to join our lecture series. The applicants have the opportunity to choose any lectures according to their interests. There is no minimum number of attendance required and no obligation to conduct a final project. The participants will also get an e-certificate after joining the lecture series.',
     eligible: 'Internationals of any nationality (students and non-students) from any degree and study programs who are willing and committed to attend the selected lecture(s).',
     required: [
-        '<a href="https://drive.google.com/file/d/19b-8yBUOpn8W7EGKkhjAz5JuCqM4SgbM/view?usp=sharing">Letter of commitment</a>',
-        'A scan of student’s ID card (.jpg)',
-        'A scan of English proficiency certificate/English proficiency prediction (TOEFL/TKBI/IELTS/IBT) (optional)'
+        'Formal Photo 4x6 (plain background)(.jpg);',
+        'Scan of Passport/ National ID (.jpg/.pdf) (optional)',
+        'Translation of National ID (if the document is not in English) (optional)',
     ],
     benefits: [
-        'Project development grant',
-        'Direct learning from experts',
-        'New academic insights',
-        'International experience & network',
+        'Learning from world renowned academics',
+        'International network',
         'E-Certificate',
     ],
     timelines: [{
         title: '<b>Registration Deadline</b>',
-        date: '17 September 2021',
+        date: '24 hours before the schedule of the selected lecture(s)',
     }, {
-        title: 'Announcement',
-        date: '22 September 2021',
-    }],
-    applications: [
-        'Prepare the required documents.',
-        'Fill out the registration form <a href="https://bit.um.ac.id/REALS23_general" target="_blank">here</a>',
-    ],
-    selections: [
-        'Demonstrates a strong commitment to active participation in Rethinking EurAsia Lecture Series from the beginning until the end of the courses',
-        'Indicates a serious interest in current issue in Europe and Asia',
-        'Indicates awareness of the issue on Years of Living Precariously: Maintaining Resilience amidst a Global Pandemic in Europe and Asia',
-        'Indicates an adequate proficiency in spoken and written English',
-    ]
-}, {
-    to: '/apply/general',
-    slug: 'general',
-    name: 'General Participants',
-    description: 'This category applies to Indonesian applicants who are not registered as UM students. It includes alumni, lecturer, or students from other universities in Indonesia who wish to join our lecture series. The applicants have the opportunity to choose any lectures according to their interests. There is no minimum number of attendance required and no obligation to conduct a final project. The participants will also get an e-certificate after joining the lecture series.',
-    eligible: '',
-    required: [
-        '<a href="https://drive.google.com/file/d/19b-8yBUOpn8W7EGKkhjAz5JuCqM4SgbM/view?usp=sharing">Letter of commitment</a>',
-        'A scan of student’s ID card (.jpg)',
-        'A scan of English proficiency certificate/English proficiency prediction (TOEFL/TKBI/IELTS/IBT) (optional)'
-    ],
-    benefits: [
-        'Project development grant',
-        'Direct learning from experts',
-        'New academic insights',
-        'International experience & network',
-        'E-Certificate',
-    ],
-    timelines: [{
-        title: '<b>Registration Deadline</b>',
-        date: '17 September 2021',
-    }, {
-        title: 'Announcement',
-        date: '22 September 2021',
+        title: 'Lecture Series',
+        date: '18 February - 14 April 2023 (Every Friday)',
     }],
     applications: [
         'Prepare the required documents.',
@@ -502,7 +465,41 @@ const applicants = [{
     selections: [
         'Demonstrates a strong commitment to active participation in Rethinking EurAsia Lecture Series from the beginning until the end of the courses',
         'Indicates a serious interest in current issue in Europe and Asia',
-        'Indicates awareness of the issue on Years of Living Precariously: Maintaining Resilience amidst a Global Pandemic in Europe and Asia',
+        'Indicates awareness of the issue on <b>Post-Pandemic World Challenges</b>',
+        'Indicates an adequate proficiency in spoken and written English',
+    ]
+}, {
+    to: '/apply/general',
+    slug: 'general',
+    name: 'General Participants',
+    description: 'This category applies to Indonesian applicants who are not registered as UM students. It includes alumni, lecturer, or students from other universities in Indonesia who wish to join our lecture series. The applicants have the opportunity to choose any lectures according to their interests. There is no minimum number of attendance required and no obligation to conduct a final project. The participants will also get an e-certificate after joining the lecture series.',
+    eligible: 'Alumni, lecturers, or students from other universities (non UM) in Indonesia who wish to join our lecture series. The applicants have the opportunity to choose any lectures according to their interests. There is no minimum number of attendance required and no obligation to conduct a final project. The participants will also get an e-certificate after joining the lecture series',
+    required: [
+        'A scan of ID card',
+        'A scan of English proficiency certificate/English proficiency prediction (TOEFL/TKBI/IELTS/IBT) (optional)'
+    ],
+    benefits: [
+        'You can choose the course you are interested in',
+        'Direct learning from experts',
+        'New insights',
+        'International experience & network',
+        'E-Certificate',
+    ],
+    timelines: [{
+        title: '<b>Registration Deadline</b>',
+        date: '24 hours before the schedule of the selected lecture(s)',
+    }, {
+        title: 'Lecture Series',
+        date: '18 February - 14 April 2023 (Every Friday)',
+    }],
+    applications: [
+        'Prepare the required documents.',
+        'Fill out the registration form <a href="https://bit.um.ac.id/REALS23_general" target="_blank">here</a>',
+    ],
+    selections: [
+        'Demonstrates a strong commitment to active participation in Rethinking EurAsia Lecture Series from the beginning until the end of the courses',
+        'Indicates a serious interest in current issue in Europe and Asia',
+        'Indicates awareness of the issue on <b>Post-Pandemic World Challenges</b>',
         'Indicates an adequate proficiency in spoken and written English',
     ]
 }]
