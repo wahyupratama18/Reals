@@ -55,13 +55,13 @@ import { sliders, lectures, profiles } from '../data'
                     <router-link v-scroll-to="`#app`" :to="`profiles/${1 + i}`" v-for="(profile, i) in profiles" :key="i">
                         <div class="flex items-center gap-x-6 pr-6 bg-slate-50 rounded-lg shadow-md hover:shadow-rose-400 hover:bg-slate-100/80">
                             <div class="relative sm:max-w-xl">
-                                <div class="absolute inset-0 bg-gradient-to-r from-rose-400 to-rose-500 shadow-md transform -skew-y-3 sm:skew-y-0 sm:rotate-12 rounded-3xl"></div>
+                                <!-- <div class="absolute inset-0 bg-gradient-to-r from-rose-400 to-rose-500 shadow-md transform -skew-y-3 sm:skew-y-0 sm:rotate-12 rounded-3xl"></div>
                                 <div class="relative">
                                     <div class="h-32 w-32 bg-center bg-no-repeat bg-cover rounded-lg shadow-lg" :style="`background-image: url(${ profile.photo })`"></div>
-                                </div>
+                                </div> -->
                             </div>
 
-                            <div>
+                            <div class="p-6">
                                 <h3 class="font-semibold text-rose-400 text-lg" v-text="profile.name"></h3>
                                 <h5 class="font-medium" v-text="profile.uni"></h5>
                                 <h6 v-text="profile.country"></h6>
@@ -82,7 +82,7 @@ import { sliders, lectures, profiles } from '../data'
 
             <hr>
 
-            <div class="mt-12">
+            <!-- <div class="mt-12">
                 <h2 class="text-3xl font-semibold">List of Lectures</h2>
 
                 <ol class="grid grid-cols-1 md:grid-cols-2 gap-4 list-disc list-inside" v-if="lectures.length > 0">
@@ -94,7 +94,7 @@ import { sliders, lectures, profiles } from '../data'
                 </ol>
 
                 <ToBe class="mt-4" v-else>To be announced (TBA)</ToBe>
-            </div>
+            </div> -->
         </section>
     </div>
 </template>

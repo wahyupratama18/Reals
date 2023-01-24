@@ -9,6 +9,7 @@ import Gallery from './views/Gallery.vue'
 import Lectures from './views/Lectures.vue'
 import Schedule from './views/Schedule.vue'
 import ShowApply from './views/ShowApply.vue'
+import { applicants } from './data'
 
 const generateTags = (name, content) => {
     return {
@@ -43,6 +44,18 @@ homeTags.push(
         'Home of Rethinking EurAsia Lecture Series'
     )
 )
+
+const applications = applicants.map(apply => {
+    return {
+        path: `/apply/${ apply.slug }`,
+        name: 'How to Apply',
+        component: ShowApply,
+        meta: {
+            title: 'Apply for REALS - Rethinking Asia Lecture Series',
+            metaTags: homeTags
+        }
+    }
+})
 
 const router = createRouter({
     mode: 'hash',
