@@ -16,7 +16,7 @@ import { sliders, lectures, profiles } from '../data'
                 <router-link v-scroll-to="`#breadcrumb`" v-if="slide.route" :to="slide.route">
                     <img :src="slide.image" class="block object-cover object-center w-full h-full">
                 </router-link>
-                <img v-else :src="slide.image">
+                <img v-else :src="slide.image" class="block object-cover object-center w-full h-full">
             </SplideSlide>
         </Splide>
 
