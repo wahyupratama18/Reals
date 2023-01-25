@@ -53,7 +53,11 @@ const socials = [{
             <img src="../assets/oia.png" alt="The Office of International Affairs" class="max-h-14">
             
             <h3 class="font-medium mt-6 mb-2">In collaboration with:</h3>
-            <h6 class="mb-2 text-sm">Department of English, Faculty of Letters, UM</h6>
+            
+            <h6 class="mb-5 text-sm">Department of English, Faculty of Letters, UM</h6>
+
+            <img src="../assets/perpus.png" alt="UPT Perpustakaan UM" class="max-h-14 mb-5 max-w-[20rem]">
+            
             <img src="../assets/almi.png" alt="ALMI" class="max-h-14">
         </div>
 

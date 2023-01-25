@@ -4,6 +4,7 @@ import Button from '../components/Button.vue'
 import ToBe from '../components/ToBe.vue';
 import { sliders, lectures, profiles } from '../data'
 
+const height = 'h-full' /* 'h-[50vh]' */
 </script>
 
 <template>
@@ -14,9 +15,9 @@ import { sliders, lectures, profiles } from '../data'
         }" aria-label="REALS carousel">
             <SplideSlide v-for="(slide, index) in sliders" :key="index">
                 <router-link v-scroll-to="`#breadcrumb`" v-if="slide.route" :to="slide.route">
-                    <img :src="slide.image" class="block object-cover object-center w-full h-full">
+                    <img :src="slide.image" class="block object-cover object-center w-full" :class="height">
                 </router-link>
-                <img v-else :src="slide.image" class="block object-cover object-center w-full h-full">
+                <img v-else :src="slide.image" class="block object-cover object-center w-full" :class="height">
             </SplideSlide>
         </Splide>
 

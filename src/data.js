@@ -1,9 +1,12 @@
 const sliders = [{
+    // route: '/apply/um-students',
+    image: 'slider-1.png',
+}, {
     // route: undefined,
     image: 'announcement.jpg',
 }, {
     route: '/apply/um-students',
-    image: 'general.jpg',
+    image: 'students.jpg',
 }, {
     route: '/apply/intl',
     image: 'international.jpg',
