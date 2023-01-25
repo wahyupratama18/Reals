@@ -300,7 +300,7 @@ const profiles = [{
     biography: ``
 }, {
     name: 'Dr Elly (Ellen) Kent',
-    uni: 'University New South Wales at the Australian Defence Force Academy',
+    uni: 'University New South Wales',
     country: 'Indonesia',
     photo: 'profile.png',
     fields: '-',
@@ -309,9 +309,9 @@ const profiles = [{
     email: 'e.kent@adfa.edu.au',
     biography: ``
 }, {
-    name: 'Anneleen',
-    uni: 'KU Leuven',
-    country: 'Belgium',
+    name: 'Dr Richard Tomlins',
+    uni: 'Coventry University',
+    country: 'United Kingdom',
     photo: 'profile.png',
     fields: '-',
     research: '-',
@@ -546,10 +546,12 @@ const downloads = {
 }
 
 const galleries = [
-    'slidermain.jpg',
-    'sliderhijau.jpg',
-    'sliderbiru.jpg',
+    'https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gP577sNgxEI1v-YMEXSNZFxvcbt_YcWczbCX4lWiGBnuFt9CJJlQotopk4gjsUzLUfROI9mFU23G1d9vpjsOf7llSwx=w891-h901',
+    'https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gNAAmBLi26dApInJ4ksO8SDyWUXl0APOxiua92KR6hT9hk_76XFH2_WEWa6Z68HZesQrawFvCYSXV8pdg91l1bOkxEv9A=w1848-h901',
+    'https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gO6EvwllL4z4g3HRe5ujjRcC7kyRnS8rXhe6VJKS_hLtAQUuesG5bTAyKt0KExJavsBIt1mTaBYpEXq2dnjMDJQiYIhtA=w1848-h901',
     // 'https://um.ac.id/wp-content/uploads/2020/12/WhatsApp-Image-2020-12-16-at-10.57.07.jpeg',
-]
+]/* .map(gallery => {
+    return `https://drive.google.com/uc?export=view&id=${ gallery }`
+}) */
 
 export { sliders, lectures, timeBlocks, schedules, profiles, applicants, downloads, galleries }
