@@ -6,7 +6,7 @@ defineProps({
 </script>
 
 <template>
-    <section id="breadcrumb" class="max-h-52 bg-no-repeat bg-center bg-cover h-[35vh]" style="background: url('banner.jpg')">
+    <section id="breadcrumb" class="max-h-52 bg-no-repeat bg-center bg-cover min-h-[35vh]" style="background: url('banner.jpg')">
         <div class="bg-slate-900/60 text-right pt-20 text-white pr-8 max-h-52" style="height: 35vh;">
             <h2 class="font-bold text-xl" v-text="title"></h2>
             <div>

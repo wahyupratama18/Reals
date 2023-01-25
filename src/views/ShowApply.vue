@@ -82,7 +82,7 @@ const request = useRoute().params.apply,
                     </Table>
                 </div>
 
-                <div v-if="application.selections.length > 0" class="col-span-2">
+                <div v-if="application.selections.length > 0" class="md:col-span-2">
                     <h2 class="text-lg font-semibold">
                         <i class="mdi mdi-account-school"></i>
                         The Criteria of Selection
