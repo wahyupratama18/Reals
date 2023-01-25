@@ -550,18 +550,19 @@ const galleries = [
     'https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gNAAmBLi26dApInJ4ksO8SDyWUXl0APOxiua92KR6hT9hk_76XFH2_WEWa6Z68HZesQrawFvCYSXV8pdg91l1bOkxEv9A=w1848-h901',
     'https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gO6EvwllL4z4g3HRe5ujjRcC7kyRnS8rXhe6VJKS_hLtAQUuesG5bTAyKt0KExJavsBIt1mTaBYpEXq2dnjMDJQiYIhtA=w1848-h901',
     // 'https://um.ac.id/wp-content/uploads/2020/12/WhatsApp-Image-2020-12-16-at-10.57.07.jpeg',
+    // 'https://drive.google.com/uc?id=1GTyAxHn2VOfm_G48YEWACOx_A4GFKBoe&export=view',
+    // 'https://drive.google.com/uc?id=1tRQAFfu-vAT_tqp09PCcZUx_YpJA7Wnq&export=view',
+    // 'https://drive.google.com/uc?id=1l4e6KFz-vWAvcFG5nEb6D_lQqKEj08T6&export=view',
 ]
 
-sliders.push(...galleries.map(gallery => {
+/* sliders.push(...galleries.map(gallery => {
     return { image: gallery }
-}))
+})) */
 
-galleries.push(...sliders.filter((slide, i) => {
+galleries.push(...sliders/* .filter((slide, i) => {
     return i < sliders.length - galleries.length
-}).map(slider => {
+}) */.map(slider => {
     return slider.image
 }))
-
-console.log(galleries)
 
 export { sliders, lectures, timeBlocks, schedules, profiles, applicants, downloads, galleries }
