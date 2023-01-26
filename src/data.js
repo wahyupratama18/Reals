@@ -140,9 +140,10 @@ const lectures = [{
     references: [
         'TBA',
     ],
+    mode: 0,
     location_id: 0,
 }].map(lecture => {
-    lecture.location = lecture.mode === 1 ? locations[lecture.location_id] : ''
+    lecture.location = lecture.mode === 1 ? locations[lecture.location_id] : 'Online'
     return lecture
 })
 

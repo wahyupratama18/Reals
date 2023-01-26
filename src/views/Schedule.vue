@@ -81,6 +81,15 @@ const blocked = blocks.map((block, i) => {
                                 </h3>
                                 
                                 <p class="text-sm" v-text="schedule.lecture.profile.uni" />
+
+                                <div class="rounded-lg bg-slate-50 text-rose-400 py-1 px-2 flex gap-x-2 text-sm mt-3">
+                                    <i class="mdi" :class="{
+                                        'mdi-broadcast': schedule.lecture.mode == 0,
+                                        'mdi-human-male-board': schedule.lecture.mode == 1
+                                    }" />
+
+                                    <h5 v-text="schedule.lecture.location" />
+                                </div>
                             </div>
     
                             <div v-else>
