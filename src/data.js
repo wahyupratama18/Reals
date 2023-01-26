@@ -426,7 +426,7 @@ const applicants = [{
         date: '18 January - 3 February 2023',
     }, {
         title: 'Lecture Series',
-        date: '18 February - 14 April 2023 (Every Friday)',
+        date: '10 February - 14 April 2023 (Every Friday)',
     }],
     applications: [
         'Prepare the required documents.',
@@ -459,7 +459,7 @@ const applicants = [{
         date: '24 hours before the schedule of the selected lecture(s)',
     }, {
         title: 'Lecture Series',
-        date: '18 February - 14 April 2023 (Every Friday)',
+        date: '10 February - 14 April 2023 (Every Friday)',
     }],
     applications: [
         'Prepare the required documents.',
@@ -493,7 +493,7 @@ const applicants = [{
         date: '24 hours before the schedule of the selected lecture(s)',
     }, {
         title: 'Lecture Series',
-        date: '18 February - 14 April 2023 (Every Friday)',
+        date: '10 February - 14 April 2023 (Every Friday)',
     }],
     applications: [
         'Prepare the required documents.',
