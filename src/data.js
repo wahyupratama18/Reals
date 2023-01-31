@@ -304,7 +304,7 @@ const profiles = [{
     biography: ``
 }, {
     name: 'Dr Elly (Ellen) Kent',
-    uni: 'UNSW ADFA',
+    uni: 'UNSW Canberra at ADFA',
     country: 'Australia',
     photo: 'profile.png',
     fields: '-',
