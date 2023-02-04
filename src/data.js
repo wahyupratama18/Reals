@@ -457,7 +457,7 @@ const applicants = [{
     ],
     timelines: [{
         title: '<b>Registration Deadline</b>',
-        date: '24 hours before the schedule of the selected lecture(s)',
+        date: 'A day before the scheduled lecture',
     }, {
         title: 'Lecture Series',
         date: '10 February - 14 April 2023 (Every Friday)',
@@ -491,7 +491,7 @@ const applicants = [{
     ],
     timelines: [{
         title: '<b>Registration Deadline</b>',
-        date: '24 hours before the schedule of the selected lecture(s)',
+        date: 'A day before the scheduled lecture',
     }, {
         title: 'Lecture Series',
         date: '10 February - 14 April 2023 (Every Friday)',
