@@ -1,18 +1,18 @@
 const sliders = [{
     // route: '/apply/um-students',
-    image: 'slider-1.png',
+    image: 'slide-1-sm.png',
 }, {
     // route: undefined,
-    image: 'announcement.jpg',
+    image: 'announce.png',
 }, {
     route: '/apply/um-students',
-    image: 'students.jpg',
+    image: 'apply-students.png',
 }, {
     route: '/apply/intl',
-    image: 'international.jpg',
+    image: 'apply-intl.png',
 }, {
     route: '/apply/general',
-    image: 'general.jpg',
+    image: 'apply-general.png',
 }]
 
 const locations = [
@@ -95,7 +95,7 @@ const lectures = [{
     mode: 0,
 }, {
     name: 'TBA',
-    profile_id: 4,
+    profile_id: 8,
     abstract: `TBA`,
     references: [
         'TBA',
@@ -134,8 +134,17 @@ const lectures = [{
     ],
     mode: 0,
 }, {
-    name: 'Conclusion',
+    name: 'TBA',
     profile_id: 13,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 0,
+    location_id: 0,
+}, {
+    name: 'Wrap Up',
+    profile_id: 14,
     abstract: `TBA`,
     references: [
         'TBA',
@@ -246,9 +255,10 @@ const schedules = [{
     }, {
         started: '03:00 PM',
         block: 2,
-        title: 'Closing',
+        lecture_id: 14
+        /* title: 'Closing',
         uni: 'Online',
-        country: ''
+        country: '' */
     },]
 }]
 
