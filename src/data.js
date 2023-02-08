@@ -78,7 +78,7 @@ const lectures = [{
     ],
     mode: 0,
 }, {
-    name: 'TBA',
+    name: 'Play for Change',
     profile_id: 6,
     abstract: `TBA`,
     references: [
@@ -140,7 +140,7 @@ const lectures = [{
     references: [
         'TBA',
     ],
-    mode: 0,
+    mode: 1,
     location_id: 0,
 }, {
     name: 'Wrap Up',
@@ -179,6 +179,10 @@ const schedules = [{
         started: '02:00 PM',
         block: 2,
         lecture_id: 0
+    }, {
+        started: '03:00 PM',
+        block: 3,
+        lecture_id: 2
     },]
 }, {
     date: '17 February 2023',
@@ -186,10 +190,6 @@ const schedules = [{
         started: '01:30 PM',
         block: 3,
         lecture_id: 1
-    }, {
-        started: '03:00 PM',
-        block: 3,
-        lecture_id: 2
     },]
 }, {
     date: '24 February 2023',
