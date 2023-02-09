@@ -43,7 +43,7 @@ const lectures = [{
     mode: 1,
     location_id: 0
 }, {
-    name: 'TBA',
+    name: 'Post COVID Health System Resilience through Indonesian Traditional Medicines (JAMU)',
     profile_id: 2,
     abstract: `TBA`,
     references: [
@@ -467,7 +467,7 @@ const applicants = [{
     ],
     timelines: [{
         title: '<b>Registration Deadline</b>',
-        date: 'A day before the scheduled lecture',
+        date: 'A day before the scheduled lecture, at 5 PM (GMT+7)',
     }, {
         title: 'Lecture Series',
         date: '10 February - 14 April 2023 (Every Friday)',
@@ -501,7 +501,7 @@ const applicants = [{
     ],
     timelines: [{
         title: '<b>Registration Deadline</b>',
-        date: 'A day before the scheduled lecture',
+        date: 'A day before the scheduled lecture, at 5 PM (GMT+7)',
     }, {
         title: 'Lecture Series',
         date: '10 February - 14 April 2023 (Every Friday)',
