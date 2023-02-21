@@ -52,7 +52,7 @@ const lectures = [{
     mode: 1,
     location_id: 0
 }, {
-    name: 'TBA',
+    name: 'Nanomaterial-mediated Rapid Diagnostic Tests for Disease Detection',
     profile_id: 3,
     abstract: `TBA`,
     references: [
@@ -61,7 +61,7 @@ const lectures = [{
     mode: 1,
     location_id: 0
 }, {
-    name: 'TBA',
+    name: 'Title: Exploring the Multilingual Mosaic: Investigating Linguistic Landscapes in Indonesia',
     profile_id: 4,
     abstract: `TBA`,
     references: [
