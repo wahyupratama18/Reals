@@ -61,7 +61,7 @@ const lectures = [{
     mode: 1,
     location_id: 0
 }, {
-    name: 'Title: Exploring the Multilingual Mosaic: Investigating Linguistic Landscapes in Indonesia',
+    name: 'Title: Exploring the Multilingual Mosaic: Linguistic Landscapes in Indonesia',
     profile_id: 4,
     abstract: `TBA`,
     references: [
