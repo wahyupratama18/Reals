@@ -70,7 +70,7 @@ const lectures = [{
     mode: 1,
     location_id: 0
 }, {
-    name: 'TBA',
+    name: 'Art & Activism in Indonesia: the Pandemic and Beyond',
     profile_id: 5,
     abstract: `TBA`,
     references: [
@@ -78,7 +78,7 @@ const lectures = [{
     ],
     mode: 0,
 }, {
-    name: 'Play for Change',
+    name: 'Play for Change (Cancelled)',
     profile_id: 6,
     abstract: `TBA`,
     references: [
