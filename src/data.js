@@ -86,7 +86,7 @@ const lectures = [{
     ],
     mode: 0,
 }, {
-    name: 'TBA',
+    name: 'G20 and Gender Issues: Repositioning Gender Empowerment Issues within Global and National Context',
     profile_id: 7,
     abstract: `TBA`,
     references: [
@@ -94,7 +94,7 @@ const lectures = [{
     ],
     mode: 0,
 }, {
-    name: 'TBA',
+    name: 'Technology Trends in a Post-Pandemic World: Advanced Material Perspective',
     profile_id: 8,
     abstract: `TBA`,
     references: [
