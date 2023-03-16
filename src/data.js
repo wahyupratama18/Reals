@@ -102,7 +102,7 @@ const lectures = [{
     ],
     mode: 0,
 }, {
-    name: 'TBA',
+    name: 'Melakukan Penelitian tentang Penulis Perempuan Muslim dan Online Platforms',
     profile_id: 9,
     abstract: `TBA`,
     references: [
@@ -110,7 +110,7 @@ const lectures = [{
     ],
     mode: 0,
 }, {
-    name: 'TBA',
+    name: 'Lockdown Ibuism: Experiences of Indonesian migrant mothers during the 2021 COVID-19 pandemic in Aotearoa New Zealand',
     profile_id: 10,
     abstract: `TBA`,
     references: [
@@ -126,7 +126,7 @@ const lectures = [{
     ],
     mode: 0,
 }, {
-    name: 'TBA',
+    name: 'Play for Change',
     profile_id: 12,
     abstract: `TBA`,
     references: [
@@ -353,7 +353,7 @@ const profiles = [{
     email: 'yudi@itb.ac.id',
     biography: ``
 }, {
-    name: 'Nor Ismah',
+    name: 'Dr. Nor Ismah',
     uni: 'Universitas Nahdlatul Ulama (UNU) Yogyakarta',
     country: 'Indonesia',
     photo: 'profile.png',
@@ -363,7 +363,7 @@ const profiles = [{
     email: 'norismahkz@gmail.com',
     biography: ``
 }, {
-    name: 'Nelly Martin-Anatias, Ph.D.',
+    name: 'Dr. Nelly Martin-Anatias, Ph.D.',
     uni: 'Massey University of New Zealand',
     country: 'New Zealand',
     photo: 'profile.png',
