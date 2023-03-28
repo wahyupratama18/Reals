@@ -118,7 +118,7 @@ const lectures = [{
     ],
     mode: 0,
 }, {
-    name: 'Recovering Learning Loss in Education: Lessons Learned from Indonesia',
+    name: 'Recovering Learning Losses from COVID-19',
     profile_id: 11,
     abstract: `TBA`,
     references: [
@@ -127,7 +127,7 @@ const lectures = [{
     mode: 0,
 }, {
     name: 'Play for Change',
-    profile_id: 12,
+    profile_id: 6,
     abstract: `TBA`,
     references: [
         'TBA',
@@ -238,7 +238,7 @@ const schedules = [{
 }, {
     date: '31 March 2023',
     rundowns: [{
-        started: '01:00 PM',
+        started: '01:30 PM',
         block: 3,
         lecture_id: 11
     }, {
