@@ -149,8 +149,16 @@ const lectures = [{
     references: [
         'TBA',
     ],
-    mode: 0,
+    mode: 1,
     location_id: 0,
+}, {
+    name: 'Incorporating Digital Transformation and AI into your life',
+    profile_id: 12,
+    abstract: `TBA`,
+    references: [
+        'TBA',
+    ],
+    mode: 0,
 }].map(lecture => {
     lecture.location = lecture.mode === 1 ? locations[lecture.location_id] : 'Online'
     return lecture
@@ -245,6 +253,13 @@ const schedules = [{
         started: '03:00 PM',
         block: 3,
         lecture_id: 12
+    },]
+}, {
+    date: '7 April 2023',
+    rundowns: [{
+        started: '01:30 PM',
+        block: 3,
+        lecture_id: 15
     },]
 }, {
     date: '14 April 2023',
